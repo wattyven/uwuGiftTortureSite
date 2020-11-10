@@ -8,9 +8,9 @@ body, html {
 * {
     box-sizing: border-box
 }
-/* The hero image bckgrnd */
+/* The hero image bckgrnd - pls supply ur own graphic file here*/
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("fox.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("FILE.png");
   width: 100vw;
   height: 100vh;
   display: flex;
