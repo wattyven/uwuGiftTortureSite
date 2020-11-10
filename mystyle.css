@@ -1,0 +1,63 @@
+body, html {
+    margin: 0;
+    font-family: "Comic Sans MS";
+    height: 100%;
+    overflow-x: hidden;
+}
+
+* {
+    box-sizing: border-box
+}
+/* The hero image bckgrnd */
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("fox.png");
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+/* position n center the image to scale properly on shit w diff screen sizes*/
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+/* center text */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  color: white;
+}
+
+.UWU-SONG {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.music-button {
+    background-color: #FFB6C1; /* Pink */
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: "Comic Sans MS";
+    border-radius: 8px;
+    font-size: 16px;
+    border: 2px solid#DB7093;
+}
+
+.giftmsg {
+    margin-bottom: 5px;
+}
+
+.smallmsg {
+    margin-top: 5px;
+}
