@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+
+    <!--
+        NOTE THAT THE REFERENCED FILES, ASIDE FROM site.webmanifest AND mystyle.css, WILL NOT BE PROVIDED;
+        YOU WILL NEED FAVICONS FOR apple-touch-icon.png, favicon-32x32.png, AND favicon-16x16.png
+        YOU WILL ALSO NEED MUSIC FILES TO PLAY for song.mp3 AND song.ogg 
+        NOTE THAT ONCE THE PLAY BUTTON IS PRESSED, THERE IS NO PAUSE OR STOP BUTTON. THIS IS INTENTIONAL. 
+    -->
+
+    <head>
+        <title>YOUR GIFT TITLE HERE</title>
+        <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+        <link rel="manifest" href="site.webmanifest">
+        <link rel="stylesheet" href="mystyle.css">
+    </head>
+
+    <body>         
+            <section class="hero-image">
+                <div class="hero-text">
+                    <h1 style="font-size:4vw" class="giftmsg">YOUR PRIMARY GIFT MESSAGE HERE</h1>
+                    <p style="font-size:2vw"class="smallmsg">A THOUGHTFUL LINE HERE, TO FOLLOW UP ON YOUR SENTIMENTS</p>
+                        <audio id="myTune" preload="auto">
+                            <source src="song.mp3">
+                            <source src="song.ogg">
+                        </audio>
+                    <button class="music-button" onclick="document.getElementById('myTune').play()">UWU CLICK ME FOR UWU</button>
+                    <!--
+                        YES, THIS IS AN UWU BUTTON.
+                    -->
+                </div>
+            </section>
+    </body>
+
+</html>
+
